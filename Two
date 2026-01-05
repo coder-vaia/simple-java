@@ -1,0 +1,40 @@
+public class Main {
+    public static void main(String[] args) {
+        
+        for (int i = 0; i < 5; i++) {
+            System.out.println("For loop iteration: " + i);
+        }
+        
+        System.out.println();
+        
+        int j = 0;
+        while (j < 5) {
+            System.out.println("While loop iteration: " + j);
+            j++;
+        }
+        
+        System.out.println();
+        
+        int k = 0;
+        do {
+            System.out.println("Do-while loop iteration: " + k);
+            k++;
+        } while (k < 5);
+        
+        System.out.println();
+        
+        int[] arr = {10, 20, 30, 40, 50};
+        for (int num : arr) {
+            System.out.println("Enhanced for loop: " + num);
+        }
+        
+        System.out.println();
+        
+        for (int i = 1; i <= 3; i++) {
+            for (int m = 1; m <= 3; m++) {
+                System.out.print(i + "-" + m + " ");
+            }
+            System.out.println();
+        }
+    }
+}
